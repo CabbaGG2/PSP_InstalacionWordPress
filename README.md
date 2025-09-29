@@ -48,6 +48,7 @@ sudo apt install apache2 \
                  php-xml \
                  php-zip
 ```
+<br><br>
 Aquí una captura de pantalla de como debería verse la terminal mientras instalan las dependencias necesarias:
 
  ![Instalación de dependencias](imagenes/1.png)
