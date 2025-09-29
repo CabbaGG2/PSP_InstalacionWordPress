@@ -237,6 +237,10 @@ Capturas de pantalla con los pasos finales de configuración:
 <br><br>
 
 ## Contacto
-José Gregorio Cámara Depablos - [@CabbaGG](https://twitter.com/CabbaGG) - email@example.com
+José Gregorio Cámara Depablos - [@CabbaGG](https://twitter.com/CabbaGG) - JOS.95camara@gmail.com
 
 Project Link: [https://github.com/CabbaGG2/PSP_InstalacionWordPress](https://github.com/CabbaGG2/PSP_InstalacionWordPress/edit/main/README.md)
+
+## Documentación
+
+* [Instala y Configura WordPress](https://ubuntu.com/tutorials/install-and-configure-wordpress#8-write-your-first-post)
