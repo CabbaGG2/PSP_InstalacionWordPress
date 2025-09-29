@@ -224,7 +224,7 @@ Guarda y cierra el archivo con los comandos Ctrl + X seguido de ENTER.
 - ⚠️:**Atención:** elige un nombre de usuario y una contraseña diferentes a las credenciales de MySQL (base de datos) que configuramos para el uso de WordPress, y diferentes a tus credenciales para iniciar sesión en el escritorio o la terminal de tu ordenador o servidor.
 - Puedes elegir si quieres que tu sitio sea indexado por los motores de búsqueda.
 <br><br>
-- Capturas de pantalla con los pasos finales de configuración:
+Capturas de pantalla con los pasos finales de configuración:
 ![Configuracion de WordPress en BBDD](imagenes/13.png)
 <br><br>
 ![Configuracion de WordPress en BBDD](imagenes/14.png)
