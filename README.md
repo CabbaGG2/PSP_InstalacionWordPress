@@ -95,3 +95,24 @@ Guardamos con: Ctrl + O y cerramos con: Ctrl + X
 Captura de pantalla de como se ve el editor de texto del terminal:
 
  ![Configuración de apache](imagenes/3.png)
+
+Seguido modificaremos el archivo de configuración por defecto para agregar un Hostname al que el WordPress respondera sus llamadas. Este nombre de host debe estar mapeado a tu caja de alguna manera, por ejemplo, a través de DNS, o mediante ediciones en los sistemas del cliente. Hay que agregar ServerName como se ve el siguiente ejemplo:
+
+```bash
+<VirtualHost *:80>
+    ServerName hostname.example.com
+    ... # the rest of the VHost configuration
+</VirtualHost>
+```
+Captura de pantalla agregando esta linea al archivo:
+
+![Configuración de apache](imagenes/6.png)
+
+Para finalizar la configuración del Apache, reiniciaremos el servicio para aplicar todos los cambios con el siguiente comando:
+
+```bash
+sudo service apache2 reload
+```
+Captura de pantalla aplicando el comando:
+
+![Configuración de apache](imagenes/4.png)
