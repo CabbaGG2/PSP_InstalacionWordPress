@@ -207,8 +207,7 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
 ```
 <br><br>
 
-Elimina esas líneas (ctrl+k borrará una línea cada vez que presiones la combinación). Luego reemplázalas con el contenido de **[aqui](https://api.wordpress.org/secret-key/1.1/salt/
-.)** (Esa dirección es un generador aleatorio que devuelve claves completamente aleatorias cada vez que se abre). Este paso es importante para asegurarte de que tu sitio no sea vulnerable a ataques de “secretos conocidos”.
+Elimina esas líneas (ctrl+k borrará una línea cada vez que presiones la combinación). Luego reemplázalas con el contenido de **[aqui](https://api.wordpress.org/secret-key/1.1/salt/.)** (Esa dirección es un generador aleatorio que devuelve claves completamente aleatorias cada vez que se abre). Este paso es importante para asegurarte de que tu sitio no sea vulnerable a ataques de “secretos conocidos”.
 <br><br>
 
 Guarda y cierra el archivo con los comandos Ctrl + X seguido de ENTER.
