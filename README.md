@@ -1,10 +1,10 @@
-# Instalación de Servicio WordPress
+## Instalación de Servicio WordPress
 En este README se explicará brevemente como realizar todos los pasos necesarios para realizar una puesta en marcha de un servicio WordPress.
 
 
 
 
-# Índice
+## Índice
 
 * [Descripción General](# Instalación de Servicio WordPress)
 
