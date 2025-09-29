@@ -171,6 +171,7 @@ Bye
 <br><br>
 ![Configuración de BBDD](imagenes/8.png)
 <br><br>
+![Configuracion de WordPress en BBDD](imagenes/9.png)
 
 ##Configuración de WordPress para conectar a la Base de Datos
 
@@ -212,5 +213,4 @@ Elimina esas líneas (ctrl+k borrará una línea cada vez que presiones la combi
 
 Guarda y cierra el archivo con los comandos Ctrl + X seguido de ENTER.
 - Captura de pantalla con los comandos por terminal:
-![Configuracion de WordPress en BBDD](imagenes/9.png)
 ![Configuracion de WordPress en BBDD](imagenes/10.png)
