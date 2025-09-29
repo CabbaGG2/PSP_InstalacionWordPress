@@ -211,3 +211,6 @@ Elimina esas líneas (ctrl+k borrará una línea cada vez que presiones la combi
 <br><br>
 
 Guarda y cierra el archivo con los comandos Ctrl + X seguido de ENTER.
+- Captura de pantalla con los comandos por terminal:
+![Configuracion de WordPress en BBDD](imagenes/9.png)
+![Configuracion de WordPress en BBDD](imagenes/10.png)
