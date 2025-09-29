@@ -50,3 +50,16 @@ sudo apt install apache2 \
 Aquí una captura de pantalla de como debería verse la terminal mientras instalan las dependencias necesarias:
 
  ![Instalación de dependencias](imagenes/1.png)
+
+## Instalación de WordPress
+Crea el directorio de Instalación y descarga los archivos de **[WordPress.org(https://wordpress.org/)**:
+
+```bash
+sudo mkdir -p /srv/www
+sudo chown www-data: /srv/www
+curl https://wordpress.org/latest.tar.gz | sudo -u www-data tar zx -C /srv/www
+```
+
+Captura de pantalla de como se ve el comando en la terminal:
+
+ ![Instalación de WordPress](imagenes/2.png)
