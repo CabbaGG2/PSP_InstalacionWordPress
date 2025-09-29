@@ -29,7 +29,6 @@ En este README se explicará brevemente como realizar todos los pasos necesarios
 
 ## Instalación de Dependencias
 
-
 Para instalar Apache y PHP se tienen que utilizar los siguientes comandos:
     
 ```bash
@@ -156,11 +155,8 @@ Bye
 ```
 - Capturas de pantalla de la configuración de la base de datos:
 
-
 ![Configuración de BBDD](imagenes/5.png)
-
-
+<br>
 ![Configuración de BBDD](imagenes/7.png)
-
-
+<br>
 ![Configuración de BBDD](imagenes/8.png)
