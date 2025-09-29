@@ -53,6 +53,7 @@ Aquí una captura de pantalla de como debería verse la terminal mientras instal
 
  ![Instalación de dependencias](imagenes/1.png)
 
+<br><br>
 ## Instalación de WordPress
 Crea el directorio de Instalación y descarga los archivos de **[WordPress.org](https://wordpress.org)**:
 
@@ -62,6 +63,7 @@ sudo chown www-data: /srv/www
 curl https://wordpress.org/latest.tar.gz | sudo -u www-data tar zx -C /srv/www
 ```
 
+<br><br>
 Captura de pantalla de como se ve el comando en la terminal:
 
  ![Instalación de WordPress](imagenes/2.png)
@@ -73,7 +75,7 @@ Creamos el sitio de Apache con el siguiente comando:
 ```bash
 sudo nano /etc/apache2/sites-available/wordpress.conf
 ```
-
+<br><br>
 Dentro del editor inyectamos las siguientes lineas de codigo:
 
 ```bash
@@ -91,13 +93,14 @@ Dentro del editor inyectamos las siguientes lineas de codigo:
     </Directory>
 </VirtualHost>
 ```
-
+<br><br>
 Guardamos con: Ctrl + O y cerramos con: Ctrl + X
 
 Captura de pantalla de como se ve el editor de texto del terminal:
 
  ![Configuración de apache](imagenes/3.png)
 
+<br><br>
 Seguido modificaremos el archivo de configuración por defecto para agregar un Hostname al que el WordPress respondera sus llamadas. Este nombre de host debe estar mapeado a tu caja de alguna manera, por ejemplo, a través de DNS, o mediante ediciones en los sistemas del cliente. Hay que agregar ServerName como se ve el siguiente ejemplo:
 
 ```bash
@@ -106,15 +109,20 @@ Seguido modificaremos el archivo de configuración por defecto para agregar un H
     ... # the rest of the VHost configuration
 </VirtualHost>
 ```
+
+<br><br>
 Captura de pantalla agregando esta linea al archivo:
 
 ![Configuración de apache](imagenes/6.png)
 
+<br><br>
 Para finalizar la configuración del Apache, reiniciaremos el servicio para aplicar todos los cambios con el siguiente comando:
 
 ```bash
 sudo service apache2 reload
 ```
+
+<br><br>
 Captura de pantalla aplicando el comando:
 
 ![Configuración de apache](imagenes/4.png)
@@ -154,10 +162,11 @@ Query OK, 1 row affected (0,00 sec)
 mysql> quit
 Bye
 ```
+<br><br>
 - Capturas de pantalla de la configuración de la base de datos:
 
 ![Configuración de BBDD](imagenes/5.png)
-<br>
+<br><br>
 ![Configuración de BBDD](imagenes/7.png)
-<br>
+<br><br>
 ![Configuración de BBDD](imagenes/8.png)
