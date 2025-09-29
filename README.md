@@ -52,7 +52,7 @@ Aquí una captura de pantalla de como debería verse la terminal mientras instal
  ![Instalación de dependencias](imagenes/1.png)
 
 ## Instalación de WordPress
-Crea el directorio de Instalación y descarga los archivos de **[WordPress.org(https://wordpress.org)**:
+Crea el directorio de Instalación y descarga los archivos de **[WordPress.org](https://wordpress.org)**:
 
 ```bash
 sudo mkdir -p /srv/www
