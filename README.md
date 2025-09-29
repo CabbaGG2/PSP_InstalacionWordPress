@@ -6,7 +6,7 @@ En este README se explicará brevemente como realizar todos los pasos necesarios
 
 # Índice
 
-* [Descripción General](#Instalación de Servicio WordPress)
+* [Descripción General](# Instalación de Servicio WordPress)
 
 * [Instalación de Dependencias](#Instalación de Dependencias)
 
