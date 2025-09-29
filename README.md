@@ -20,7 +20,7 @@ En este README se explicará brevemente como realizar todos los pasos necesarios
 
 * [Configurar el WordPress](#Configuración-de-WordPress)
 
-* [Realizar tu Primer Post!](#tecnologías-utilizadas)
+* [Realizar tu Primer Post!](#Haz-tu-Primer-Post)
 
 * [Contacto](#Contacto)
 
@@ -235,6 +235,11 @@ Capturas de pantalla con los pasos finales de configuración:
 <br><br>
 ![Configuracion de WordPress en BBDD](imagenes/17.png)
 <br><br>
+
+## Haz tu Primer Post:
+- Borra el Post de "Hello World"
+- Para crear una nueva entrada, haz clic en el botón “Añadir nueva”. Verás un elegante editor WYSIWYG con opciones de formato de texto simples (pero potentes). Si lo prefieres, puedes cambiar al modo Texto para trabajar con HTML puro.
+<img width="2496" height="1366" alt="image" src="https://github.com/user-attachments/assets/774b9d60-30ed-4df7-92d3-dc80873aa4c3" />
 
 ## Contacto
 José Gregorio Cámara Depablos - [@CabbaGG](https://twitter.com/CabbaGG) - JOS.95camara@gmail.com
