@@ -215,4 +215,4 @@ Guarda y cierra el archivo con los comandos Ctrl + X seguido de ENTER.
 - Captura de pantalla con los comandos por terminal:
 ![Configuracion de WordPress en BBDD](imagenes/10.png)
 - Captura de pantalla con los cambios realizados en las líneas señaladas anteriormente:
-![Configuracion de WordPress en BBDD](imagenes/12.png)
+![Configuracion de WordPress en BBDD](imagenes/11.png)
