@@ -173,7 +173,7 @@ Bye
 <br><br>
 ![Configuracion de WordPress en BBDD](imagenes/9.png)
 
-##Configuración de WordPress para conectar a la Base de Datos
+## Configuración de WordPress para conectar a la Base de Datos
 
 Ahora tenemos que configurar el WordPress para que use la base de datos. Primero copiaremos la archivo de configuración de ejemplo a "wp-config.php":
 ```bash
@@ -214,3 +214,5 @@ Elimina esas líneas (ctrl+k borrará una línea cada vez que presiones la combi
 Guarda y cierra el archivo con los comandos Ctrl + X seguido de ENTER.
 - Captura de pantalla con los comandos por terminal:
 ![Configuracion de WordPress en BBDD](imagenes/10.png)
+- Captura de pantalla con los cambios realizados en las líneas señaladas anteriormente:
+![Configuracion de WordPress en BBDD](imagenes/12.png)
