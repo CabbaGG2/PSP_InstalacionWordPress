@@ -225,8 +225,6 @@ Guarda y cierra el archivo con los comandos Ctrl + X seguido de ENTER.
 - Puedes elegir si quieres que tu sitio sea indexado por los motores de búsqueda.
 <br><br>
 - Capturas de pantalla con los pasos finales de configuración:
-![Configuracion de WordPress en BBDD](imagenes/12.png)
-<br><br>
 ![Configuracion de WordPress en BBDD](imagenes/13.png)
 <br><br>
 ![Configuracion de WordPress en BBDD](imagenes/14.png)
@@ -234,4 +232,6 @@ Guarda y cierra el archivo con los comandos Ctrl + X seguido de ENTER.
 ![Configuracion de WordPress en BBDD](imagenes/15.png)
 <br><br>
 ![Configuracion de WordPress en BBDD](imagenes/16.png)
+<br><br>
+![Configuracion de WordPress en BBDD](imagenes/17.png)
 <br><br>
