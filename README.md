@@ -22,7 +22,7 @@ En este README se explicará brevemente como realizar todos los pasos necesarios
 
 * [Realizar tu Primer Post!](#tecnologías-utilizadas)
 
-* [Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
+* [Contacto](#Contacto)
 
 * [Documentación](#conclusión)
 
@@ -235,3 +235,8 @@ Capturas de pantalla con los pasos finales de configuración:
 <br><br>
 ![Configuracion de WordPress en BBDD](imagenes/17.png)
 <br><br>
+
+## Contacto
+José Gregorio Cámara Depablos - [@CabbaGG](https://twitter.com/CabbaGG) - email@example.com
+
+Project Link: [https://github.com/CabbaGG2/PSP_InstalacionWordPress](https://github.com/CabbaGG2/PSP_InstalacionWordPress/edit/main/README.md)
