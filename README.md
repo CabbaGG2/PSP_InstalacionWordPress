@@ -14,7 +14,7 @@ En este README se explicará brevemente como realizar todos los pasos necesarios
 
 * [Configurar Apache para WordPress](#Configurar-Apache-para-WordPress)
 
-* [Configurar la Base de Datos](#Estado-del-proyecto)
+* [Configurar la Base de Datos](#Configurar-la-Base-de-Datos)
 
 * [Configurar la conexión entre la BBDD y WordPress](#Características-de-la-aplicación-y-demostración)
 
@@ -170,3 +170,45 @@ Bye
 ![Configuración de BBDD](imagenes/7.png)
 <br><br>
 ![Configuración de BBDD](imagenes/8.png)
+<br><br>
+
+##Configuración de WordPress para conectar a la Base de Datos
+
+Ahora tenemos que configurar el WordPress para que use la base de datos. Primero copiaremos la archivo de configuración de ejemplo a "wp-config.php":
+```bash
+sudo -u www-data cp /srv/www/wordpress/wp-config-sample.php /srv/www/wordpress/wp-config.php
+```
+<br><br>
+
+A continuación, establece las credenciales de la base de datos en el archivo de configuración (no reemplaces database_name_here ni username_here en los comandos de abajo. Sí reemplaza <your-password> con la contraseña de tu base de datos):
+```bash
+sudo -u www-data sed -i 's/database_name_here/wordpress/' /srv/www/wordpress/wp-config.php
+sudo -u www-data sed -i 's/username_here/wordpress/' /srv/www/wordpress/wp-config.php
+sudo -u www-data sed -i 's/password_here/<your-password>/' /srv/www/wordpress/wp-config.php
+```
+<br><br>
+
+Para terminar, abrimos una sesion para configurar el siguiente archivo con nano:
+```bash
+sudo -u www-data nano /srv/www/wordpress/wp-config.php
+```
+<br><br>
+
+Hay que buscar las siguientes líneas:
+```bash
+define( 'AUTH_KEY',         'put your unique phrase here' );
+define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
+define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
+define( 'NONCE_KEY',        'put your unique phrase here' );
+define( 'AUTH_SALT',        'put your unique phrase here' );
+define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
+define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
+define( 'NONCE_SALT',       'put your unique phrase here' );
+```
+<br><br>
+
+Elimina esas líneas (ctrl+k borrará una línea cada vez que presiones la combinación). Luego reemplázalas con el contenido de **[aqui](https://api.wordpress.org/secret-key/1.1/salt/
+.)** (Esa dirección es un generador aleatorio que devuelve claves completamente aleatorias cada vez que se abre). Este paso es importante para asegurarte de que tu sitio no sea vulnerable a ataques de “secretos conocidos”.
+<br><br>
+
+Guarda y cierra el archivo con los comandos Ctrl + X seguido de ENTER.
