@@ -63,3 +63,35 @@ curl https://wordpress.org/latest.tar.gz | sudo -u www-data tar zx -C /srv/www
 Captura de pantalla de como se ve el comando en la terminal:
 
  ![Instalación de WordPress](imagenes/2.png)
+
+ ## Configurar Apache para WordPress
+
+Creamos el sitio de Apache con el siguiente comando:
+
+```bash
+sudo nano /etc/apache2/sites-available/wordpress.conf
+```
+
+Dentro del editor inyectamos las siguientes lineas de codigo:
+
+```bash
+<VirtualHost *:80>
+    DocumentRoot /srv/www/wordpress
+    <Directory /srv/www/wordpress>
+        Options FollowSymLinks
+        AllowOverride Limit Options FileInfo
+        DirectoryIndex index.php
+        Require all granted
+    </Directory>
+    <Directory /srv/www/wordpress/wp-content>
+        Options FollowSymLinks
+        Require all granted
+    </Directory>
+</VirtualHost>
+```
+
+Guardamos con: Ctrl + O y cerramos con: Ctrl + X
+
+Captura de pantalla de como se ve el editor de texto del terminal:
+
+ ![Configuración de apache](imagenes/3.png)
