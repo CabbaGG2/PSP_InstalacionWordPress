@@ -221,5 +221,5 @@ Guarda y cierra el archivo con los comandos Ctrl + X seguido de ENTER.
 ## Configuración de WordPress 
 - Abre http://localhost/ en tu navegador(si estas utilizando una maquina cliente tienes que usar la direccion IP de la maquina servidor).
 - Se te pedirá el título de tu nuevo sitio, un nombre de usuario, una contraseña y una dirección de correo electrónico. Ten en cuenta que el nombre de usuario y la contraseña que elijas aquí son para WordPress, y no dan acceso a ninguna otra parte de tu servidor.
-- **Atención:** elige un nombre de usuario y una contraseña diferentes a las credenciales de MySQL (base de datos) que configuramos para el uso de WordPress, y diferentes a tus credenciales para iniciar sesión en el escritorio o la terminal de tu ordenador o servidor.
+- ⚠️:**Atención:** elige un nombre de usuario y una contraseña diferentes a las credenciales de MySQL (base de datos) que configuramos para el uso de WordPress, y diferentes a tus credenciales para iniciar sesión en el escritorio o la terminal de tu ordenador o servidor.
 - Puedes elegir si quieres que tu sitio sea indexado por los motores de búsqueda.
