@@ -154,8 +154,11 @@ Bye
 ```
 - Capturas de pantalla de la configuración de la base de datos:
 
+
 ![Configuración de BBDD](imagenes/5.png)
 
+
 ![Configuración de BBDD](imagenes/7.png)
+
 
 ![Configuración de BBDD](imagenes/8.png)
