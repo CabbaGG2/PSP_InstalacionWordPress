@@ -18,7 +18,7 @@ En este README se explicará brevemente como realizar todos los pasos necesarios
 
 * [Configurar la conexión entre la BBDD y WordPress](#Configuración-de-conneción-de-WordPress-con-la-Base-de-Datos)
 
-* [Configurar el WordPress](#Configurar-el-WordPress)
+* [Configurar el WordPress](#Configuración-de-WordPress)
 
 * [Realizar tu Primer Post!](#tecnologías-utilizadas)
 
