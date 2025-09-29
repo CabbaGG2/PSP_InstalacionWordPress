@@ -28,6 +28,8 @@ En este README se explicará brevemente como realizar todos los pasos necesarios
 
 
 ## Instalación de Dependencias
+
+
 Para instalar Apache y PHP se tienen que utilizar los siguientes comandos:
     
 ```bash
