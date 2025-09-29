@@ -239,6 +239,7 @@ Capturas de pantalla con los pasos finales de configuración:
 ## Haz tu Primer Post:
 - Borra el Post de "Hello World"
 - Para crear una nueva entrada, haz clic en el botón “Añadir nueva”. Verás un elegante editor WYSIWYG con opciones de formato de texto simples (pero potentes). Si lo prefieres, puedes cambiar al modo Texto para trabajar con HTML puro.
+* Captura de pantalla de un modelo de plantilla de WordPress personalizada:
 <img width="2496" height="1366" alt="image" src="https://github.com/user-attachments/assets/774b9d60-30ed-4df7-92d3-dc80873aa4c3" />
 
 ## Contacto
